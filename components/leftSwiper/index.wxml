@@ -3,7 +3,7 @@
     <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{txtStyle}}" class="inner">
       <slot name="left-swiper-content"></slot>
     </view>
-    <view class="swiper-area">
+    <view class="swiper-area" bindtap="hideSwiperBtn">
       <slot name="left-swiper-btn"></slot>
     </view>
   </view>

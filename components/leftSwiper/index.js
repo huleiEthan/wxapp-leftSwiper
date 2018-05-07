@@ -97,6 +97,11 @@ Component({
       this.setData({
         btnWidth: btnWidth
       });
+    },
+    hideSwiperBtn: function () {
+      this.setData({
+        txtStyle: "left:0px"
+      })
     }
   }
 })
