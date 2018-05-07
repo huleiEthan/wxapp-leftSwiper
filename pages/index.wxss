@@ -1,0 +1,31 @@
+/* pages/index.wxss */
+.item-icon{
+  width: 64rpx;
+  vertical-align: middle;
+  margin-right: 16rpx
+}
+.txt{
+  background-color: #fff;
+  width: 100%;
+  z-index: 5;
+  padding:0 10rpx;
+  transition: left 0.2s ease-in-out;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.del{
+  background-color: #e64340;
+  width: 180rpx;
+  text-align: center;
+  float: right;
+  color: #fff
+}
+.fav {
+  background-color: yellowgreen;
+  width: 180rpx;
+  text-align: center;
+  float: right;
+  color: #fff
+}

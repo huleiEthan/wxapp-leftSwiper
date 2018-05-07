@@ -1,0 +1,13 @@
+<!--pages/index.wxml-->
+<view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
+  <left-swiper list="{{list}}" btnWidth="{{360}}">
+    <view slot="left-swiper-content" class="txt">
+      <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>{{item.txt}}
+    </view>
+    <view slot="left-swiper-btn">
+      <view data-index="{{index}}" bindtap="delItem" class="inner del">删除</view>
+      <view data-index="{{index}}" bindtap="delItem" class="inner fav">收藏</view>
+    </view>
+  </left-swiper>
+</view>
+  

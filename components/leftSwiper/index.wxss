@@ -1,0 +1,27 @@
+.left-swiper-class{
+  width: 700rpx;
+  margin: 0 auto;
+  padding:40rpx 0;
+}
+.item{
+  position: relative;
+  border-top: 2rpx solid #eee;
+  height: 120rpx;
+  line-height: 120rpx;
+  overflow: hidden;
+}
+.item:last-child{
+  border-bottom: 2rpx solid #eee;
+}
+.inner{
+  position: absolute;
+  top:0;
+  width: 100%;
+  z-index: 5;
+}
+.swiper-area {
+  position: absolute;
+  top:0;
+  z-index: 4;
+  right: 0;
+}
