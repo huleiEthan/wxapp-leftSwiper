@@ -2,7 +2,25 @@
 
 > 微信小程序---左滑显示按钮组件
 
-## document
+## 参数
+
+### btnWidth
+
+- 含义： 左滑显示出的按钮的总宽度 单位（rpx）
+
+- 类型： Number
+
+- 默认： ``` 180 ```
+
+### itemHeight 
+
+- 含义： 列表项的高度
+
+- 类型： Number
+
+- 默认： ``` 100 ```
+
+## 用法
 
 ``` bash
 #index.json
@@ -12,7 +30,7 @@
 
 # index.wxml
 <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
-  <left-swiper list="{{list}}" btnWidth="{{360}}">
+  <left-swiper list="{{list}}" btnWidth="{{360}}" itemHeight="{{120}}">
     <view slot="left-swiper-content" class="txt">
       <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>{{item.txt}}
     </view>

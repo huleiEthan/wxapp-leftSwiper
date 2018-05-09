@@ -1,12 +1,11 @@
 .left-swiper-class{
-  width: 700rpx;
+  width: 100%;
   margin: 0 auto;
   padding:40rpx 0;
 }
 .item{
   position: relative;
   border-top: 2rpx solid #eee;
-  height: 120rpx;
   line-height: 120rpx;
   overflow: hidden;
 }

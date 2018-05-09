@@ -4,10 +4,14 @@ Component({
   behaviors: [],
 
   properties: {
-    btnWidth: {
+    btnWidth: { //按钮的总宽度 单位（rpx）
       type: Number,
       value: 180
-    }//按钮的总宽度 单位（rpx）    
+    }, 
+    itemHeight: { // 高度 单位（rpx）
+      type: Number,
+      value: 100
+    }
   },
 
   data: {
